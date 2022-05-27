@@ -1,5 +1,13 @@
 ## ios-wkwebview-navigator-mediadevices-api-test
 
+### Versions
+
+ios v15.5
+
+xcode v13
+
+### Conclusion
+
 `Navigator.mediaDevices` API only available after adding permissions `NSMicrophoneUsageDescription` and `NSCameraUsageDescription` to `Info.plist`
 
 Info.plist
@@ -12,6 +20,8 @@ Info.plist
 	<string>xxxxx requires access to camera.</string>
 
 ```
+
+### Code
 
 ViewController.switft
 
